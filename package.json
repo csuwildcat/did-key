@@ -1,9 +1,12 @@
 {
-  "name": "web-boilerplate",
+  "name": "did-key",
   "version": "0.0.1",
-  "description": "Simple Node/HTML project template",
+  "description": "Generate and interact with did:key DIDs effortlessly in Node.js or a Web browser",
   "keywords": [
-    "boilerplate"
+    "did",
+    "dids",
+    "did-key",
+    "decentralized-identity"
   ],
   "license": "Apache 2",
   "author": "Daniel Buchner",
@@ -13,8 +16,17 @@
   },
   "dependencies": {
     "spec-up": "0.9.101",
-    "koa": "2.13.0",
-    "koa-router": "9.4.0",
-    "koa-logger": "3.2.1"
+    "ipfs": "0.50.2",
+    "tweetnacl": "1.0.3",
+    "micro-base58": "0.4.3",
+    "fs-extra": "8.1.0",
+    "globby": "11.0.0",
+    "gulp": "^4.0.2",
+    "gulp-bump": "3.2.0",
+    "gulp-concat": "2.6.1",
+    "gulp-connect": "5.7.0",
+    "gulp-run": "1.7.1",
+    "gulp-terser": "1.2.0",
+    "merge-stream": "2.0.0"
   }
 }
